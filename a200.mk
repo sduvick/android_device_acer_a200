@@ -129,9 +129,4 @@ WIFI_BAND 	      := 802_11_ABG
 $(call inherit-product, frameworks/base/build/tablet-dalvik-heap.mk)
 $(call inherit-product-if-exists, vendor/acer/a200/a200-vendor.mk)
 
-# inherit iconia-common
-##$(call inherit-product, device/acer/t20-common/t20-common.mk)
-
-PRODUCT_DEVICE := picasso_e
-PRODUCT_MODEL  := Iconia Tab A200
 
